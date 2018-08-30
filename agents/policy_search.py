@@ -19,6 +19,7 @@ class PolicySearch_Agent():
         self.best_w = None
         self.best_score = -np.inf
         self.noise_scale = 0.1
+        self.count = 0
 
         # Episode variables
         self.reset_episode()
